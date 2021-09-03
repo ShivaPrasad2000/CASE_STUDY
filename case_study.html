@@ -1,0 +1,296 @@
+<html>
+	<head>
+		<style>
+			th{
+				text-align: left;
+				margin:100px;
+			}
+			#table{
+				width:450px;
+				height:400px;
+				padding:20px;
+				margin-bottom:30px;
+				background-color: white;
+				border: 1px solid  black;
+			}
+			#table2{
+				border-collapse: collapse;
+			}
+			#th1 {
+				padding: 10px;
+				border:1px solid black;	
+				text-align:center				
+			}
+			#td1{
+				padding: 10px;
+				border:1px solid black;		
+			}
+			#weight{
+				width:50px;
+			}
+			#submit,#owner{
+				align:center;
+				width:100px;
+				padding:10px;
+			}
+			#backToLogin{
+				align:center;
+				width:200px;
+				padding:10px;
+			}
+			#welfare_user{
+				align:center;
+				width:200px;
+				padding:10px;
+				margin-left:100px
+			}
+			
+		</style>
+		<script>
+			var stored=[];
+			function storeThis(){
+				var name = document.getElementById("owner_name").value;
+				var petType = document.getElementById("pet_type").value;
+				var petName = document.getElementById("pet_name").value;
+				var petAge = document.getElementById("pet_age").value;
+				var treatment = document.getElementById("treatment").value;
+				var vaccination = document.getElementById("vaccination").value;
+				var vaccinationDate = document.getElementById("vac_date").value;
+				
+				if(name==""){
+					alert("Name field is required");
+				}else if(petType==""){
+					alert("Pet type field is required");
+				}else if(petName==""){
+					alert("Pet name field is required");
+				}else if(petAge==""){
+					alert("Pet age field is required");
+				}else if(treatment==""){
+					alert("Treatment field is required");
+				}else if(vaccination==""){
+					alert("Vaccination field is required");
+				}else if(vaccinationDate==""){
+					alert("Vaccination schedule field is required");
+				}else{
+					stored.push(name);
+					stored.push(petType);
+					stored.push(petName);
+					stored.push(petAge);
+					stored.push(treatment);
+					stored.push(vaccination);
+					stored.push(vaccinationDate);
+					
+					alert(name+ " your pet details are stored.");
+					document.getElementById("owner_name").value=null;
+					document.getElementById("pet_type").value=null;
+					document.getElementById("pet_name").value=null;
+					document.getElementById("pet_age").value=null;
+					document.getElementById("treatment").value=null;
+					document.getElementById("vaccination").value=null;
+					document.getElementById("vac_date").value=null;
+				}
+				
+				
+			}
+			function searchDetails(){
+				var name = document.getElementById("search").value;
+				if(name!=""){
+					var length = parseInt(stored.length);
+					if(length==0){
+						alert("No data was found");
+					}else{
+						document.getElementById("table2").innerHTML=document.getElementById("table3").innerHTML;
+						for(var i=0;i<length;i=i+7){
+							if(stored[i]==name){
+								
+								row = document.createElement('tr');
+								row.id="tr1";
+								for(var j=0;j<7;j++){
+									heading = document.createElement('th');
+									heading.innerHTML=stored[i+j];
+									heading.id="th1"
+									row.append(heading);
+									
+								}
+								
+								var thead = document.createElement('tbody');
+								thead.append(row);
+								document.getElementById("table2").appendChild(thead);
+							}
+						}
+					}
+				}else{
+					alert("Please enter anything in search field");
+				}
+			}
+			function clearDetails(){
+				document.getElementById("table2").innerHTML=document.getElementById("table3").innerHTML;
+			}
+			function clickedPetOwner(){
+				document.getElementById("center_").style.display="none";
+				document.getElementById("left").style.display="inline";
+			}
+			function clickedWelfareMember(){
+				document.getElementById("center_").style.display="none";
+				document.getElementById("right").style.display="inline";
+				document.getElementById("search").value="";
+			}
+			function loginPageDisplay(){
+				document.getElementById("left").style.display="none";
+				document.getElementById("right").style.display="none";
+				document.getElementById("center_").style.display="inline";
+			}
+		</script>
+	</head>
+	<body >
+		<div id="center_" align="center">
+				<h1 style="padding-right:80px">Login As:</h1>
+				<div>
+					<button id="owner" align="center" onclick="clickedPetOwner()">Pet Owner</button>
+					<button id="welfare_user" onclick="clickedWelfareMember()">Animal Welfare Member</button>
+				</div>	
+		</div>
+		<div id="left" align="center" style="display:none">
+			<form>
+			<h1>Pet Details</h1>
+				<table id="table">
+					<tr>
+						<th>
+							owner:
+						</th>
+						<th>
+							<input type="text"  id ="owner_name" value ="" required>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Pet Type: 
+						</th>
+						<th>
+							<input type="text"  id ="pet_type" value ="" >
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Pet Name:
+						</th>
+						<th>
+							<input type="text"  id ="pet_name" value ="" >
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Pet Age:
+						</th>
+						<th>
+							<input type="number" style="width:50px" id ="pet_age" value ="" required>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<p style="font-size:20px;margin-top:25px">Procedures/Treatments</p>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Name of Treatment:
+						</th>
+						<th>
+							<input type="text"  id ="treatment" value ="" required>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<p style="font-size:20px; margin-top:25px">Vaccination</p>
+						</th>
+						<th>
+							
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Name of Vaccination:
+						</th>
+						<th>
+							<input type="text"  id ="vaccination" value ="" required>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Date:
+						</th>
+						<th>
+							<input type="date"  id ="vac_date" value ="" required>
+						</th>
+					</tr>
+				</table>
+				<button type="button" onclick="storeThis()" id="submit"  >submit</button>
+				<button type="button" onclick="loginPageDisplay()" id="backToLogin"  >Go back to Login Page</button>
+			</form>
+		</div>
+		<div id="right" align="center" style="display:none">
+			<form>
+				<h1>Search Owner Details</h1>
+				<input type="text"  id ="search" value ="" required style="width:50%">
+				<button type="button" onclick="searchDetails()" id="search_btn" >Search</button>
+				
+				<br>
+				<button type="button" onclick="loginPageDisplay()" id="backToLogin"  >Go back to Login Page</button>
+				<table id="table2">
+					<tr id="tr1">
+						<th id="th1">
+							Owner Name
+						</th>
+						<th id="th1">
+							Pet Type
+						</th >
+						<th id="th1">
+							Pet Name
+						</th>
+						<th id="th1">
+							Pet Age
+						</th>
+						<th id="th1">
+							Treatment
+						</th>
+						<th id="th1">
+							Vaccination
+						</th>
+						<th id="th1">
+							Date of Vaccination
+						</th>
+						
+					</tr>
+				</table>
+				<button type="button" onclick="clearDetails()" id="clear_btn" >Clear</button>
+				<table id="table3" style="display:none">
+					<tr id="tr1">
+						<th id="th1">
+							Owner Name
+						</th>
+						<th id="th1">
+							Pet Type
+						</th >
+						<th id="th1">
+							Pet Name
+						</th>
+						<th id="th1">
+							Pet Age
+						</th>
+						<th id="th1">
+							Treatment
+						</th>
+						<th id="th1">
+							Vaccination
+						</th>
+						<th id="th1">
+							Date of Vaccination
+						</th>
+						
+					</tr>
+				</table>
+				
+			</form>
+		</div>
+	</body>
+</html>
