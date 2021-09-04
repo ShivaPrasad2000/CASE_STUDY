@@ -1,0 +1,15 @@
+D:\C#\assignment\assignment\day_position\day_position\day_position\bin\Debug\net5.0\day_position.exe
+D:\C#\assignment\assignment\day_position\day_position\day_position\bin\Debug\net5.0\day_position.deps.json
+D:\C#\assignment\assignment\day_position\day_position\day_position\bin\Debug\net5.0\day_position.runtimeconfig.json
+D:\C#\assignment\assignment\day_position\day_position\day_position\bin\Debug\net5.0\day_position.runtimeconfig.dev.json
+D:\C#\assignment\assignment\day_position\day_position\day_position\bin\Debug\net5.0\day_position.dll
+D:\C#\assignment\assignment\day_position\day_position\day_position\bin\Debug\net5.0\ref\day_position.dll
+D:\C#\assignment\assignment\day_position\day_position\day_position\bin\Debug\net5.0\day_position.pdb
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\day_position.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\day_position.AssemblyInfoInputs.cache
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\day_position.AssemblyInfo.cs
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\day_position.csproj.CoreCompileInputs.cache
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\day_position.dll
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\ref\day_position.dll
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\day_position.pdb
+D:\C#\assignment\assignment\day_position\day_position\day_position\obj\Debug\net5.0\day_position.genruntimeconfig.cache

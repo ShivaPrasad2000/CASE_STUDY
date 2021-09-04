@@ -1,0 +1,16 @@
+D:\C#\assignment\assignment\binary_search\binary\binary\bin\Debug\net5.0\binary.exe
+D:\C#\assignment\assignment\binary_search\binary\binary\bin\Debug\net5.0\binary.deps.json
+D:\C#\assignment\assignment\binary_search\binary\binary\bin\Debug\net5.0\binary.runtimeconfig.json
+D:\C#\assignment\assignment\binary_search\binary\binary\bin\Debug\net5.0\binary.runtimeconfig.dev.json
+D:\C#\assignment\assignment\binary_search\binary\binary\bin\Debug\net5.0\binary.dll
+D:\C#\assignment\assignment\binary_search\binary\binary\bin\Debug\net5.0\ref\binary.dll
+D:\C#\assignment\assignment\binary_search\binary\binary\bin\Debug\net5.0\binary.pdb
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.csproj.AssemblyReference.cache
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.AssemblyInfoInputs.cache
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.AssemblyInfo.cs
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.csproj.CoreCompileInputs.cache
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.dll
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\ref\binary.dll
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.pdb
+D:\C#\assignment\assignment\binary_search\binary\binary\obj\Debug\net5.0\binary.genruntimeconfig.cache

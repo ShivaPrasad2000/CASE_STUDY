@@ -1,0 +1,16 @@
+D:\C#\assignment\assignment\day\week_day\week_day\bin\Debug\net5.0\week_day.exe
+D:\C#\assignment\assignment\day\week_day\week_day\bin\Debug\net5.0\week_day.deps.json
+D:\C#\assignment\assignment\day\week_day\week_day\bin\Debug\net5.0\week_day.runtimeconfig.json
+D:\C#\assignment\assignment\day\week_day\week_day\bin\Debug\net5.0\week_day.runtimeconfig.dev.json
+D:\C#\assignment\assignment\day\week_day\week_day\bin\Debug\net5.0\week_day.dll
+D:\C#\assignment\assignment\day\week_day\week_day\bin\Debug\net5.0\ref\week_day.dll
+D:\C#\assignment\assignment\day\week_day\week_day\bin\Debug\net5.0\week_day.pdb
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.csproj.AssemblyReference.cache
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.AssemblyInfoInputs.cache
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.AssemblyInfo.cs
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.csproj.CoreCompileInputs.cache
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.dll
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\ref\week_day.dll
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.pdb
+D:\C#\assignment\assignment\day\week_day\week_day\obj\Debug\net5.0\week_day.genruntimeconfig.cache
