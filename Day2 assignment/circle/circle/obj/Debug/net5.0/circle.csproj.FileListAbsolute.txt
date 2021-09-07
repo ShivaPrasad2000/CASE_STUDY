@@ -1,0 +1,16 @@
+D:\C#\assignment\circle\circle\bin\Debug\net5.0\circle.exe
+D:\C#\assignment\circle\circle\bin\Debug\net5.0\circle.deps.json
+D:\C#\assignment\circle\circle\bin\Debug\net5.0\circle.runtimeconfig.json
+D:\C#\assignment\circle\circle\bin\Debug\net5.0\circle.runtimeconfig.dev.json
+D:\C#\assignment\circle\circle\bin\Debug\net5.0\circle.dll
+D:\C#\assignment\circle\circle\bin\Debug\net5.0\ref\circle.dll
+D:\C#\assignment\circle\circle\bin\Debug\net5.0\circle.pdb
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.csproj.AssemblyReference.cache
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.AssemblyInfoInputs.cache
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.AssemblyInfo.cs
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.csproj.CoreCompileInputs.cache
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.dll
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\ref\circle.dll
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.pdb
+D:\C#\assignment\circle\circle\obj\Debug\net5.0\circle.genruntimeconfig.cache
