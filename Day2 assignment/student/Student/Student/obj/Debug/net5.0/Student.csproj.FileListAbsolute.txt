@@ -1,0 +1,16 @@
+D:\C#\assignment\student\Student\Student\bin\Debug\net5.0\Student.exe
+D:\C#\assignment\student\Student\Student\bin\Debug\net5.0\Student.deps.json
+D:\C#\assignment\student\Student\Student\bin\Debug\net5.0\Student.runtimeconfig.json
+D:\C#\assignment\student\Student\Student\bin\Debug\net5.0\Student.runtimeconfig.dev.json
+D:\C#\assignment\student\Student\Student\bin\Debug\net5.0\Student.dll
+D:\C#\assignment\student\Student\Student\bin\Debug\net5.0\ref\Student.dll
+D:\C#\assignment\student\Student\Student\bin\Debug\net5.0\Student.pdb
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.csproj.AssemblyReference.cache
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.AssemblyInfoInputs.cache
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.AssemblyInfo.cs
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.csproj.CoreCompileInputs.cache
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.dll
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\ref\Student.dll
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.pdb
+D:\C#\assignment\student\Student\Student\obj\Debug\net5.0\Student.genruntimeconfig.cache

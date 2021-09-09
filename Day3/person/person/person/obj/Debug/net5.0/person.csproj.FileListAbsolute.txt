@@ -1,0 +1,16 @@
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.csproj.AssemblyReference.cache
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.AssemblyInfoInputs.cache
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.AssemblyInfo.cs
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.csproj.CoreCompileInputs.cache
+D:\C#\assignment\person\person\person\bin\Debug\net5.0\person.exe
+D:\C#\assignment\person\person\person\bin\Debug\net5.0\person.deps.json
+D:\C#\assignment\person\person\person\bin\Debug\net5.0\person.runtimeconfig.json
+D:\C#\assignment\person\person\person\bin\Debug\net5.0\person.runtimeconfig.dev.json
+D:\C#\assignment\person\person\person\bin\Debug\net5.0\person.dll
+D:\C#\assignment\person\person\person\bin\Debug\net5.0\ref\person.dll
+D:\C#\assignment\person\person\person\bin\Debug\net5.0\person.pdb
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.dll
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\ref\person.dll
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.pdb
+D:\C#\assignment\person\person\person\obj\Debug\net5.0\person.genruntimeconfig.cache
